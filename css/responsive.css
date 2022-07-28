@@ -30,6 +30,9 @@
         
         
     }
+   .com-d-none{
+    display: none;
+   }
 
 
  }
@@ -62,6 +65,10 @@
         
         
     }
+    .com-d-none{
+        display: none;
+       }
+    
    
 }
 
@@ -89,6 +96,7 @@
     .carousel-caption button{
         padding: 10px 30px;
     } 
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -145,6 +153,7 @@
         padding: 10px 30px;
     } 
     /* slaid section end  */
+   
 
 }
 
