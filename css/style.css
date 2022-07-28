@@ -42,3 +42,7 @@ body{
 .bg-tech{
     background: #F4FAFD;
 }
+
+.fa-star,.fa-star-half-stroke {
+    color:gold;
+}
