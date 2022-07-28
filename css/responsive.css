@@ -1,0 +1,157 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+
+/* `xxs` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 475.98px) { 
+    
+    .carousel-caption h1{
+        font-family: 'Poppins';
+        font-style: normal;        
+        font-size: 18px;
+        line-height: 20px;    
+        
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .carousel-caption p{
+        font-family: 'Poppins';
+        font-style: normal;        
+        font-size: 12px;
+        line-height: 13px; 
+        text-align: center;   
+        color: #F4F4F4;
+        
+    }
+    .carousel-caption button{
+        font-size: small;
+        padding: 6px 8px;
+        margin: 0;
+        
+        
+    }
+
+
+ }
+/* xs device */
+ @media (min-width: 476px) { 
+    .carousel-caption h1{              
+        text-align: center;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;    
+
+
+    }
+    .carousel-caption p{
+        font-family: 'Poppins';
+        font-style: normal;       
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        color: #F4F4F4;
+        
+    }
+    .carousel-caption button{
+        font-size: small;
+        padding: 8px 10px;
+        
+        
+    }
+   
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .carousel-caption h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;    
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .carousel-caption p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px; 
+        text-align: center;   
+        color: #F4F4F4;
+    }
+    .carousel-caption button{
+        padding: 10px 30px;
+    } 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .carousel-caption h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 50px;    
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .carousel-caption p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px; 
+        text-align: center;   
+        color: #F4F4F4;
+    }
+    .carousel-caption button{
+        padding: 10px 30px;
+    } 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* slaide section start */
+    .carousel-caption h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 65px;
+        line-height: 85px;    
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .carousel-caption p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px; 
+        text-align: center;   
+        color: #F4F4F4;
+    }
+    .carousel-caption button{
+        padding: 10px 30px;
+    } 
+    /* slaid section end  */
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+}
